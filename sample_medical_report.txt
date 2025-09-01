@@ -1,0 +1,46 @@
+MEDICAL IMAGING REPORT
+======================
+
+Patient: Jane Doe
+Date: 2024-01-15
+Procedure: Bilateral Breast Mammography
+
+CLINICAL HISTORY:
+47-year-old female with family history of breast cancer. Routine screening mammography.
+
+TECHNIQUE:
+Standard bilateral mammography with craniocaudal and mediolateral oblique views.
+
+FINDINGS:
+- LEFT BREAST: No suspicious masses or calcifications identified. Breast tissue demonstrates heterogeneously dense parenchyma.
+
+- RIGHT BREAST: There is a 12 mm irregular mass in the upper outer quadrant at 2 o'clock position, approximately 4 cm from the nipple. 
+  
+  Mass characteristics:
+  - Size: 12 mm x 8 mm
+  - Shape: Irregular with spiculated margins
+  - Density: High density relative to surrounding tissue
+  - Associated findings: Clustered microcalcifications present
+  
+  Additional measurements:
+  - Tumor radius: 6.0 mm
+  - Tumor area: approximately 96 mm²
+  - Border irregularity: High
+  - Texture variation: Moderate to high
+
+IMPRESSION:
+BI-RADS Category 4B - Suspicious abnormality. Moderate concern for malignancy.
+
+RECOMMENDATIONS:
+1. Tissue sampling recommended - stereotactic core needle biopsy
+2. Multidisciplinary consultation if malignancy confirmed
+3. Follow-up imaging after biopsy
+
+ADDITIONAL NOTES:
+The mass demonstrates concerning morphological features including irregular shape, spiculated margins, and associated microcalcifications. These characteristics warrant tissue sampling for definitive diagnosis.
+
+Family history of breast cancer increases the clinical concern. Patient counseled regarding findings and next steps.
+
+Report electronically signed by:
+Dr. Sarah Johnson, MD
+Breast Imaging Specialist

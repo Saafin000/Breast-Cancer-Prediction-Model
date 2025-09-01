@@ -1,0 +1,213 @@
+# Breast Cancer Screening System - Comprehensive .gitignore
+# =======================================================
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+*.pem
+*.key
+config/secrets.py
+secrets/
+credentials/
+api_keys.txt
+*api_key*
+*token*
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Testing & Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+test_reports/
+
+# ML Models & Data Files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Dataset Files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json.gz
+
+# Model Training Artifacts
+model_artifacts/
+training_logs/
+tensorboard_logs/
+mlruns/
+wandb/
+model_checkpoints/
+*.pkl.backup
+cancer_model_backup_*.pkl
+*_large_dataset.pkl
+
+# Dataset Downloads & Cache
+datasets/
+data/
+raw_data/
+processed_data/
+kaggle_data/
+.cache/
+cache/
+*.cache
+
+# Generated Reports & Charts
+*.pdf
+benchmark_charts/
+improved_benchmark_charts/
+charts/
+reports/
+output/
+results/
+
+# RAG Data (keep structure, ignore generated data)
+rag_data/vector_store/
+rag_data/chroma.sqlite3
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+analysis_temp/
+temp_analysis/
+
+# Compressed Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Medical Data (Privacy Protection)
+patient_data/
+clinical_data/
+medical_images/
+anonymized_data/
+phi_data/
+
+# Generated Synthetic Data
+synthetic_*.csv
+generated_*.json
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+backup/
+backups/
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# Documentation Build
+docs/_build/
+site/
+
+# Type Checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Package Managers
+Pipfile.lock
+poetry.lock
+.pdm.toml
+__pypackages__/
+
+# Keep Important Files (Override Above Patterns)
+!requirements.txt
+!setup.py
+!README.md
+!SYSTEM_OVERVIEW.md
+!.gitignore
+!manage_system.py
+
+# Allow Small Reference Datasets
+!datasets/sample_*.csv
+!data/reference_*.json
