@@ -175,6 +175,77 @@ generated_*.json
 *.sqlite
 *.sqlite3
 
+# Development Environment
+.python-version
+.pytest_cache/
+.coverage*
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.nox/
+.tox/
+
+# Documentation Build
+docs/_build/
+site/
+_build/
+
+# IDE & Editor Files
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+# System Files
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Image and Media Files (except samples)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.ogg
+!sample_*
+!reference_*
+!demo_*
+
 # Backup Files
 backup/
 backups/
